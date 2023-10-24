@@ -1,0 +1,25 @@
+.double-seats {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  /* border: 1px solid red; */
+  height: 30px;
+  justify-content: baseline;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 0px;
+  padding-left: 0px;
+  /* min-width: 150px; */
+  /* flex-wrap: wrap; */
+  /* margin-right: 10px; */
+  margin-left: 20px;
+}
+.seat-icon {
+  /* height: 50px;
+  width: 50px; */
+  color: black;
+  /* width: auto; */
+}
+.double-each-seats-gap {
+  margin-right: 15px;
+}

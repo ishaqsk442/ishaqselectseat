@@ -1,0 +1,15 @@
+.standard-seats-gap {
+  margin-right: 15px;
+  /* margin-: 10px; */
+}
+.standard-seat-icon {
+  color: rgb(204, 204, 204);
+  height: 40px;
+  width: 40px;
+}
+.choosed-seat {
+  color: rgb(8, 252, 170);
+}
+.booked-seat {
+  color: black;
+}

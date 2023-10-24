@@ -1,0 +1,15 @@
+.seats-gap {
+  margin-right: 35px;
+  /* margin-: 10px; */
+}
+.unreserved-seat-icon {
+  height: 35px;
+  width: 35px;
+  color: grey;
+}
+.choosed-seat {
+  color: rgb(8, 252, 170);
+}
+.booked-seat {
+  color: black;
+}

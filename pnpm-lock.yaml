@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@react-icons/all-files': 4.1.0
   '@testing-library/jest-dom': 5.11.9
   '@testing-library/react': 11.2.5
   '@testing-library/user-event': 12.6.2
@@ -14,15 +15,18 @@ specifiers:
   prettier: 2.2.1
   react: 17.0.1
   react-dom: 17.0.1
+  react-icons: 4.11.0
   react-scripts: 4.0.3
 
 dependencies:
+  '@react-icons/all-files': 4.1.0_react@17.0.1
   '@testing-library/jest-dom': 5.11.9
   '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
   '@testing-library/user-event': 12.6.2
   chalk: 4.1.0
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
+  react-icons: 4.11.0_react@17.0.1
 
 devDependencies:
   eslint-config-airbnb: 18.2.1
@@ -3001,6 +3005,14 @@ packages:
       webpack: 4.44.2
       webpack-dev-server: 3.11.1_webpack@4.44.2
     dev: true
+
+  /@react-icons/all-files/4.1.0_react@17.0.1:
+    resolution: {integrity: sha512-hxBI2UOuVaI3O/BhQfhtb4kcGn9ft12RWAFVMUeNjqqhLsHvFtzIkFaptBJpFDANTKoDfdVoHTKZDlwKCACbMQ==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 17.0.1
+    dev: false
 
   /@rollup/plugin-node-resolve/7.1.3_rollup@1.32.1:
     resolution: {integrity: sha512-RxtSL3XmdTAE2byxekYLnx+98kEUOrPHF/KRVjLH+DEIHy6kjIw7YINQzn+NXiH/NTrQLAwYs0GWB+csWygA9Q==}
@@ -11045,6 +11057,14 @@ packages:
   /react-error-overlay/6.0.11:
     resolution: {integrity: sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==}
     dev: true
+
+  /react-icons/4.11.0_react@17.0.1:
+    resolution: {integrity: sha512-V+4khzYcE5EBk/BvcuYRq6V/osf11ODUM2J8hg2FDSswRrGvqiYUYPRy4OdrWaQOBj4NcpJfmHZLNaD+VH0TyA==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 17.0.1
+    dev: false
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
